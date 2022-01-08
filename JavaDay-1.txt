@@ -1,0 +1,269 @@
+Java
+
+- WORA: Write Once Run Anywhere
+- Java is a platfrom independent or portable
+- Platform = O/S + hardware
+
+
+Source Code (.c) -----> Compile ----> Machine Code (.obj)
+
+- c is not portable or platform independent
+
+
+source code (.java) ---> Compile ---> Byte code (.class) ----> Interpreter (JRE) ---> Machine code
+
+
+- Byte code: byte code is not a source code and not a machine code, it is intermediate code.
+
+- JRE: Java Runtime Environment
+- Read Byte code and converted into machine code.
+
+JRE
+- JVM: Java Virtual Machine
+- Predefined Library Files
+
+- Java History
+
+- Invented by James Gosling in 1991
+- Developed by Sun Microsystems
+- The old name of java is "Oak"
+- In 1995, first released publicly as Java "1.0"
+- Sun Microsystems sold java to oracle corporation in 2009
+
+- Java Setup
+
+- JDK Download
+- JDK Install
+- Set Path
+C:\Program Files\Java\jdk-16.0.1\bin
+- this pc--> right click ---> properties ----> Adavanced tab ---> Environment Variables
+---> User Variables ----> Path Variable Set ---> Edit ----> New ---> Java Path Paste
+
+JDK Install
+- javac: Java Compiler
+- java: Run Java Code, (JRE)
+- JRE: 
+a) JVM (Java Virtual Machine)
+b) Libraries
+- Java doc
+- jar (java archive)
+
+Confirm about Java (JDK Install)
+- open CMD/Terminal
+- javac -version
+- java -version
+
+- Java is used for Enterprise Applications, provide banking solutions.
+
+- Sun Solaris Server - Hardware
+- Sun Solaris O/S
+- Oracle Ceritfied Java Programmmer: OCJP
+
+Creating first program in java
+
+- Every Java program start with class
+- Class name should start with capital letter
+- Class name should be same as file name
+- Class name starts with either alphabet or special symbol(_, $)
+
+javac Filename.java
+- compile the code
+
+java Classname/Bytecode
+- execute / run the code
+
+javac comes from JDK
+java comes from JRE, Now JRE starts searching for main
+
+Main method
+- main is an entry point of every java program
+- without main java will compile the code and convert it into byte code, but it can't execute the code 
+or interpret the code
+
+4 types of scopes in java
+
+- public: global, which is accessible for all from anywhere
+- private: accessible within the class only
+- protected: can be accessible outside the package by using inheritance, it can also be 
+accessible inside the package
+- default: the scope can be accessible by any class but within the same package
+
+Why main is public?
+
+- JRE uses main
+- java command trigger the JRE
+- JRE load your class in the memory
+- JRE is looking for main
+- JRE is outside from your directory/folder/package
+- And outside the package things can access
+
+Why main is static?
+
+- static things are loaded into memory when class is loaded.
+
+
+why main is void?
+
+- main is void in nature
+- main is entry point so there is no need to return anything
+
+Main Arguments - String args[]
+
+- main has command line arguments
+- we can make our own command
+- we can pass any number of arguments, that's why it is array
+- All arguments are pass to main in form of array of String
+
+What is String?
+
+- String is a collection of Characters
+- String internally is a char[]
+- String is a predefined class in java as it is in capital letter
+
+What is System.out.println()?
+
+- println()- print in new line, println comes from out project
+- out: out is a predefined object, which belongs to PrintStream class
+- System is a predefined class used for input, output, and error
+e.g: System.in, System.out, System.err
+
+Println vs Print
+
+- println: print in new line
+- print: here cursor remains at the end of the text
+
+Can we Overload main()?
+
+- Yes, we can overload the main
+- when we execute the class, JVM starts execution with public static void main(String[] args).
+
+Define Variable , Variable Declaration, Local Variable initlize must
+
+- Java doesn't have any garbage value
+- It throws error
+- Local variable must be initiazed before use, otherwise compilation fails
+
+
+Assignment:
+
+1. Print Z
+2. Salary Calculator
+- Take Basic Salary of Employee as Input
+- Then Print
+
+HRA: 30% of the Basic Salary
+DA: 20% of the Basic Salary
+TA: 10% of the Basic Salary
+MA: 15% of the Basic Salary
+PF: 5% of the Basic Salary
+
+Gross Salary: BS + HRA + DA + TA + MA
+Net Salary: Gross Salary - PF
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
