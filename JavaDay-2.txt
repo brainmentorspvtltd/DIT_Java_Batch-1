@@ -1,0 +1,120 @@
+Java
+
+Data Types
+
+1. Primitive Data Types = Value Data Types (in lowercase)
+
+It is used to store integral only
+
+Enter the age
+
+byte = 1 byte = 8 bits
+
+1 bit + -
+7 bits number range
+Bit 0, 1 base 2
+
+-2 ^ 7 to 2 ^ 7 - 1
+-128 to 127
+
+byte - 1 byte
+short - 2 bytes
+int - 4 bytes
+long - 8 bytes
+
+Decimal/Floating Point Values
+
+float - 4 bytes
+double - 8 bytes
+
+char - 2 bytes
+- Java works on unicode (universal code)
+
+boolean - size depending o/s
+- true or false
+
+boolean - 1 byte / 2 bytes / 4 bytes
+
+2. Reference Data Types = Address Data Types (in uppercase/capital letter)
+
+String - always depending upon o/s
+- Collection of Characters
+
+
+Wrapper Classes in java
+
+Wrapper class is a class that is used to convert primitive data types into objects.
+
+primitive data types			Wrapper Class
+
+int					Integer
+char					Character
+byte					Byte
+short					Short
+long					Long
+float					Float
+double					Double
+boolean					Boolean
+
+
+Autoboxing: 
+Automatic conversion
+convert primitive data types into object of their wrapper classses 
+
+e.g: int to Integer
+
+Unboxing:
+It is a reverse procsessing of autoboxing.
+
+e.g: Integer to int
+
+Assignment:
+
+1. Improve the Salary Calculator
+
+In Gross Salary if it is > 9L so tax is 30%,
+If it is b/w <9L to >7L it is 20%
+If it is <7L to >= 5L it is 10%
+otherwise 0 tax
+
+2. Grading system
+
+Enter 3 Subject's Marks:90, 78, 77 and do Total and get the percentage
+
+- 90 to 70: A grade
+- 70 to 60: B grade
+- 60 to 50: C grade
+else D grade
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
