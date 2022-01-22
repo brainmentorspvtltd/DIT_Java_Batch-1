@@ -1,0 +1,242 @@
+Java
+
+Reverse a String:
+
+String name = "Ram";
+
+o/p: maR
+
+Replace all vowels with X
+
+i/p: java
+o/p: jXvX 
+
+ArmStrong Number: ArmStrong Number is a Number that is equal to the sum of cubes of its digits.
+
+i/p: 153
+
+sol: (1 * 1 * 1) + (5 * 5 * 5) + (3 * 3 * 3)
+       1         +    125      + 27
+ = 153
+
+e.g: 0, 1, 370, 371, ....
+
+o/p: ArmStrong Number
+
+Pattern - 1
+
+*
+**
+***
+****
+*****
+
+Pattern- 2
+
+*****
+****
+***
+**
+*
+
+Pattern - 3
+
+A
+BB
+CCC
+DDDD
+EEEEE
+
+Pattern - 4, Floyd's Triangle
+
+1
+2 3
+4 5 6
+7 8 9 10
+
+Pattern - 5, Hollow Rectangle Pattern
+
+**********
+*	 *
+*	 *
+*	 *
+*	 *
+*	 *
+**********
+
+Pattern - 6, Full Pyramid Pattern
+
+	*
+       ***
+      *****
+     *******
+    *********
+
+
+Pattern - 7, Diamond Shape Pattern
+
+	*
+       ***
+      *****
+       ***
+        *
+
+Prime Number: that number is divisible by 1 and number itself.
+
+i/p: 2
+o/p: prime number
+
+2 major types of Programming:
+
+- Procedural: Functions - Divide a problem into functions
+- OOPS(Object Oriented Programming Language): Wrap all the variables and functions/methods into 
+a single unit. e.g: class
+
+
+Why OOPS?
+
+In C Programming:
+
+class A
+{
+int x, y;
+
+add()
+{}
+
+sub()
+{}
+
+div()
+{}
+
+mul()
+{}
+}
+
+class B
+{
+sin()
+{
+  double x;
+}
+}
+
+Data hiding
+Data Security, no ambiguity, no conflict
+
+Is java has global variable?
+
+No, because in java every program start with class and class doesn't have global variable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
