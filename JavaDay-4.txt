@@ -1,0 +1,220 @@
+Java
+
+2 major types of Programming:
+
+- Procedural: Functions - Divide a problem into functions
+- OOPS(Object Oriented Programming Language): Wrap all the variables and functions/methods into 
+a single unit. e.g: class
+
+
+Why OOPS?
+
+In C Programming:
+
+class A
+{
+int x, y;
+
+add()
+{}
+
+sub()
+{}
+
+div()
+{}
+
+mul()
+{}
+}
+
+class B
+{
+sin()
+{
+  double x;
+}
+}
+
+Data hiding
+Data Security, no ambiguity, no conflict
+
+Is java has global variable?
+
+No, because in java every program start with class and class doesn't have global variable.
+
+What is OOPS?
+
+- Divide a problem into classes
+- OOPS Features
+
+1. Class, Object
+
+- object: real world entity, physical entity
+
+e.g: a/c, car, fan, projector
+e.g: ram, amit, shyam, rahul.....
+
+- Class: Collection of Similar Objects, logical entity
+Blueprint, Category, Layout
+- Collection of Features/Characteristics
+e.g: Human (Features Brain, Height, Weight, Age)
+
+- object: ram brain sharp, 6 feet height, .....
+
+
+OOAD: Object Oriented Analysis and Design
+
+- To make your clean code
+- OOAD provides SOLID principle
+
+SOLID
+D - DRY: Don't Repeat Yourself
+
+1. Security of the Code
+
+- Data Security: private member variables
+
+2. Duplicacy in code
+
+- Copy paste alternate make function/method and call it
+
+
+This keyword:
+- It holds current object's reference
+
+
+Encapsulation
+
+- Wrap all the data members and member methods/functions into a single unit.
+e.g: class
+
+- Data Hiding: Make member variables private
+
+Good/Secure Encapsulation = Data Hiding + Encapsulation
+
+Constructor:
+
+Q. Need to initialize the member variable when object is construct.
+- We need constructor for this
+- Constructor is call when you create an object
+- So constructor will initialize the member variable
+- Constructor name is same as class name
+- It is called only once
+- One class can have multiple constructors, so this thing is called constructor overloading
+- Every class by default have default constructor
+- So if you create any other constructor the default one is killed
+
+
+When we need multiple constructor calls in a single call.
+- Here, we need constructor chaining.
+- This keyword also use for constructor chaining
+
+
+What is Package?
+
+- Package is a folder behind the scene.
+- Package is a collection of classes, interfaces
+- We divide a big project into small-2 packages
+- So we can group the similar nature code in same kind of package
+
+e.g: User Package - Login, Register, Password Change, Account Delete
+
+Online Exam System
+
+teacher - package
+student - package
+question - package
+
+Q. Employee Class
+
+- id, name, Basic Salary, company name
+- Need 2 constructors: Default and Parameterized
+- Company name is fixed for all employees
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
