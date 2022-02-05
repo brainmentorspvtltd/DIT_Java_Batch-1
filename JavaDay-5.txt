@@ -1,0 +1,161 @@
+Java
+
+Class Relationship: Inheritance
+
+- Communicate b/w two classes
+
+1. IS - A Inheritance
+
+- BMW is a car
+- Lion is a animal
+- SavingAccount is a account
+- Ram is a student
+- Parrot is a bird
+
+2. HAS - A Inheritance
+
+- BMW has a driver
+- Customer has a order
+- Customer has a account
+
+
+In Development:
+
+- One File one class
+- If your class is public so class name must be same as file name 
+- If one file (X.java) has 3 classes e.g:
+class X{} class Y{} class Z{}
+After compile it will create 3 byte codes
+X.class Y.class Z.class
+
+
+Overriding:
+
+- When parent feature is outdated so we override the parent feature in a child
+- Overriding hide the parent feature
+
+1. Must be inheritance
+2. Method signature must be same
+void roi(), same child has same void roi()
+
+
+task: 1
+
+- Single Inheritance (P - C)
+
+vehicle
+car
+
+- Use both constructors in each class: default + Paramaterized
+
+
+Task- 2
+parent class - varName
+child class - varName
+
+child class 
+child class variable
+parent class variable
+
+
+Task 3:
+
+parent class
+variable or data
+
+child class access parent class variable 
+
+finalize()
+
+- finalize is used to perform clean up process just before object is garbage collected.
+
+Multilevel Inheritance
+
+	A (P)
+	
+	
+	B (C1)
+
+	
+	C (C2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
