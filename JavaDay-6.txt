@@ -1,0 +1,139 @@
+Java
+
+Object Casting:
+
+Upcasting: child object convert into parent object
+Downcasting: parent object convert into child object
+
+Task - 1:
+
+Use Upcasting and Downcasting
+Shape class, Rectangle class, Square class, Circle class
+
+Multiple Inheritance
+
+	A (P) B (P)
+
+       	C(C)
+
+Abstract Method:
+
+- can only be declared, not defined
+
+Abstract Class
+
+- Abstract class can have abstract methods
+- You can't create objects of abstract class
+
+Interface
+
+Like a class, an interface can have methods and variables but the methods declared in an interface are by default abstract (only method declare not defined)
+
+- Total Abstraction
+- it supports multiple interface/inheritance
+
+Task - 2
+
+Interface and use Lambda Expression
+
+- Perform Subtraction between two numbers
+
+Task - 3
+
+Use Interface 
+- And implement method in interface
+
+RAM: Random Access Memory
+
+- Temporary Memory or Volatile Memory
+- Main Memory
+- Primary Memory
+
+Sections in RAM Memory
+
+- Heap: Dynamic Memory Allocation
+- Stack: Static Memory Allocation
+LIFO: Last in First Out
+
+Memory Management:
+
+- Heap, Permspace, Stack
+- Young and Old Generation
+- G.C
+a) Minor G.C
+b) Moas G.C
+
+- Permspace is removed from java 8 now metaspace is introduced
+
+Can we increase/decrease size of stack and heap?
+
+- Yes
+- Stack: -Xss10m
+- Heap:
+	- Initial size of heap: -Xms20m
+	- Maximum size of heap: -Xmx2000m
+
+- Performance Monitoring Tool: Visual VM, Visual GC
+
+Task - 4:
+
+- Stack and Heap: Overflow
+
+String Handling:
+
+What is String?
+
+- Collection of Characters
+- It is internally a char[]
+- e.g: String name = "Ram";
+- char[] name = {'R', 'a', 'm'};
+- String is a predefine class in java: Predefine methods
+- It is also treat like a data type
+- String is a final class, so you can't inherit it
+- String objects are created in 2 ways:
+
+1) String Literal Style
+String name = "Ram";
+
+2) String Object Style
+String name = new String("Ram");
+
+String use String Pool
+String objects are immutable
+- String doesn't change existing or original objects, it can create new memory or object all the time
+
+String Mututable: StringBuffer and StringBuilder
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
