@@ -1,0 +1,73 @@
+Java
+
+StringBuffer: Stringbuffer is mutuable that means it doesn't 
+create new objects or memory
+
+Capacity Cross:
+old cap * 2 + 2
+16 * 2 + 2 = 34
+
+String Questions:
+
+1. Reverse String
+I/P: "Java Example"
+O/O: "elpmaxE avaJ"
+
+2. Remove Duplicates from a string
+I/P: "Javaa"
+O/P: "Jav"
+
+3. Reverse Each Word of a String
+I/P: "Java Example"
+O/P: "avaJ elpmaxE"
+
+4. Anagram String
+Anagram of a String is another string with exaclty the same
+quantity of each character in it, in any order.
+
+I/P: ("listen", "silent")
+O/P: Anagram String
+
+5. Convert String to int
+	int to String
+
+- compile time error: error
+
+Exception Handling
+
+Exception: Abnormal condition which terminates the program flow
+- runtime error
+- num/0 = infinite
+
+- Try
+- throw
+- catch
+- throws
+- finally
+
+Task: Take User input
+Division using Exception handling
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
