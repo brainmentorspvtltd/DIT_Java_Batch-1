@@ -1,0 +1,44 @@
+Java
+
+File Handling:
+
+Stream: Flow of data
+
+Byte File
+
+InputStream
+OutputStream
+
+Text File
+Reader, Writer
+
+Task: 1
+
+1. File Read
+2. File Write
+
+Task: 2
+
+File Copy (Read and Write)
+
+Task: 3
+
+Object Read Write
+
+
+Task: 4
+
+File name Filter, at least two filters
+
+Task: 5
+
+Try, catch, throw , throws, finally with File handling(File)
+
+
+
+
+
+
+
+
+
