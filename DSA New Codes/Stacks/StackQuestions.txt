@@ -1,0 +1,27 @@
+1. Stack Push and Pop
+2. Balance Parantheses Problem
+3. Implement Two Stacks in an Array
+4. Implement K Stacks in an Array
+5. Stock Span Problem
+6. Previous Greater Element
+    - given an array, find previous greater for every element, 
+      if previous greater is not available then -1
+    - I/P : arr : [15,10,18,12,4,6,2,8]
+    - O/P :       -1, 15, -1, 18, 12, 12, 6, 12
+7. Previous Smaller Element
+    - I/P : arr : [2,5,3,7,8,1,9]
+    - O/P : -1,2,2,3,7,-1,1
+8. Next Greater Element
+    - I/P : arr : [4,5,2,20];
+    - O/P : 5, 20, 20, -1
+9. Next Smaller Element - HW
+    - I/P : arr[] = {4,8,5,2,25};
+    - O/P : 2,2,2,-1,-1
+10. 132 Pattern
+11. Infix to Postfix Conversion
+12. Infix to Prefix Conversion
+13. Prefix to Infix Conversion
+14. Postfix to Infix Conversion
+15. Postfix to Prefix Conversion
+16. Prefix to Postfix Conversion
+17. Histogram Problem - Largest rectangular area in a Histogram
