@@ -1,0 +1,5 @@
+Queue - FIFO - First In First Out
+Operations in Queue 
+- Enqueue, Dequeue, getFront(), getRear(), size(), isEmpty()
+1. Implementing Queue Basic Operations
+2. Circular Array (Queue)
