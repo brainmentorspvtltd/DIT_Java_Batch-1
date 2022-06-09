@@ -1,0 +1,4 @@
+1. Factorial
+2. Ways to use Recursion - Tail Recursion / Head Recursion / Linear Recursion
+3. Sum of a digit
+4. Count number of zero in a digit
