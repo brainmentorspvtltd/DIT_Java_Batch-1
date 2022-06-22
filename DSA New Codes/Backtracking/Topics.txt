@@ -1,0 +1,11 @@
+Backtracking
+    - In Backtracking we attempt to solve a large problem by dividing it into
+    small sub problem, if we don't reach the desired output then we undo the
+    operations whatever we have performed so far...
+
+1. N Queen Problem
+2. Print N Queen Positions
+3. Letter Combinations of a Phone Number
+4. Well formed parantheses
+    - ref : https://leetcode.com/problems/generate-parentheses/
+5. Sudoku
