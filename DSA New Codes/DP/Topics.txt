@@ -1,0 +1,17 @@
+DP - Dynamic Programming
+- DP is entirely based on Recursion
+
+When should we use DP ?
+- Count Something, often number of ways
+- Minimize or Maximize something
+
+2 Ways to solve using DP
+- Memoization - Top Down
+- Tabulation - Bottom Up
+
+1. Fib Series
+2. Dice Game
+3. Climbing Stairs - HW
+4. Pascal Triangle
+5. LCS - Longest Common Subsequence 
+    Recursive Approach - HW
