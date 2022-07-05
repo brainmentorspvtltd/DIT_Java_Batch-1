@@ -15,3 +15,10 @@ When should we use DP ?
 4. Pascal Triangle
 5. LCS - Longest Common Subsequence 
     Recursive Approach - HW
+    Memoization
+    Tabulation
+6. Knapsack Problem
+7. MCP - Minimum Cost Path Problem
+8. Subset Sum Problem - HW
+9. Edit Distance Problem - HW
+10. Coin Change Problem - HW
