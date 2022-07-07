@@ -3,9 +3,11 @@ package Tree;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Map;
+import java.util.Queue;
 import java.util.Scanner;
 import java.util.Stack;
 import java.util.TreeMap;
+import java.util.Map.Entry;
 
 class BinaryTree<T> {
     T data;
@@ -289,6 +291,45 @@ public class BinaryTreeOperations {
         }
         getVerticalOrder(node.left, dist - 1, map);
         getVerticalOrder(node.right, dist + 1, map);
+    }
+
+
+    void topView(BinaryTree<Integer> root) {
+        class QueueObj {
+            BinaryTree<Integer> node;
+            int distance;
+            public QueueObj(BinaryTree<Integer> node, int distance) {
+                this.node = node;
+                this.distance = distance;
+            }
+        }
+
+        Queue<QueueObj> q = new LinkedList<>();
+        Map<Integer, BinaryTree> topViewMap = new TreeMap<>();
+        if(root == null) {
+            return;
+        }
+        else {
+            q.add(new QueueObj(root, 0));
+        }
+
+        while(!q.isEmpty()) {
+            QueueObj tempNode = q.poll();
+            if(!topViewMap.containsKey(tempNode.distance)) {
+                topViewMap.put(tempNode.distance, tempNode.node);
+            }
+            if(tempNode.node.left != null) {
+                q.add(new QueueObj(tempNode.node.left, tempNode.distance-1));
+            }
+            if(tempNode.node.right != null) {
+                q.add(new QueueObj(tempNode.node.right, tempNode.distance+1));
+            }
+        }
+
+        for(Entry<Integer, BinaryTree> entry : topViewMap.entrySet()) {
+            System.out.println(entry.getValue().data);
+        }
+
     }
 
     void print(BinaryTree<Integer> root) {
