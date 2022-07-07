@@ -1,8 +1,11 @@
 package Tree;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Map;
 import java.util.Scanner;
 import java.util.Stack;
+import java.util.TreeMap;
 
 class BinaryTree<T> {
     T data;
@@ -16,6 +19,7 @@ class BinaryTree<T> {
 
 public class BinaryTreeOperations {
     String msg = "root";
+    int maxLevel = 0;
     Scanner scanner = new Scanner(System.in);
     BinaryTree<Integer> insert() {
         System.out.println("Enter the " + msg + " data or enter -1 to exit");
@@ -48,8 +52,8 @@ public class BinaryTreeOperations {
         if(root == null) {
             return;
         }
-        preOrder(root.left);
-        preOrder(root.right);
+        postOrder(root.left);
+        postOrder(root.right);
         System.out.println(root.data);
     }
 
@@ -58,9 +62,9 @@ public class BinaryTreeOperations {
         if(root == null) {
             return;
         }
-        preOrder(root.left);
+        inOrder(root.left);
         System.out.println(root.data);
-        preOrder(root.right);
+        inOrder(root.right);
     }
 
     // PLR - Parent Left Right
@@ -208,6 +212,85 @@ public class BinaryTreeOperations {
          
     }
 
+
+    void levelOrder(BinaryTree<Integer> root) {
+        LinkedList<BinaryTree<Integer>> queue = new LinkedList<>();
+        queue.add(root);
+        while(!queue.isEmpty()) {
+            BinaryTree<Integer> node = queue.removeFirst();
+            System.out.println(node.data + ",");
+            if(node.left != null) {
+                queue.addLast(node.left);
+            }
+            if(node.right != null) {
+                queue.addLast(node.right);
+            }
+        }
+    }
+
+    void leftViewRec(BinaryTree<Integer> root, int level) {
+        if(root == null) {
+            return;
+        }
+        if(maxLevel < level) {
+            System.out.println(root.data);
+            maxLevel = level;
+        }
+        leftViewRec(root.left, level + 1);
+        leftViewRec(root.right, level + 1);
+    }
+
+    void leftViewIter(BinaryTree<Integer> root) {
+        if(root == null) {
+            return;
+        }
+        LinkedList<BinaryTree<Integer>> queue = new LinkedList<>();
+        queue.add(root);
+        while(!queue.isEmpty()) {
+            int size = queue.size();
+            for(int i = 0; i < size; i++) {
+                BinaryTree<Integer> currentNode = queue.removeFirst();
+                if(i == 0) {
+                    System.out.println(currentNode.data);
+                }
+                if(currentNode.left != null) {
+                    queue.addLast(currentNode.left);
+                }
+                if(currentNode.right != null) {
+                    queue.addLast(currentNode.right);
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    void printVerticalOrder(BinaryTree<Integer> root) {
+        TreeMap<Integer, ArrayList<Integer>> map = new TreeMap<>();
+        int distance = 0;
+        getVerticalOrder(root, distance, map);
+        for(Map.Entry<Integer, ArrayList<Integer>> m : map.entrySet()) {
+            System.out.println(m.getKey() + " " + m.getValue());
+        }
+    }
+
+    void getVerticalOrder(BinaryTree<Integer> node, int dist, TreeMap<Integer, ArrayList<Integer>> map) {
+        if(node == null) {
+            return;
+        }
+        if(map.get(dist) == null) {
+            ArrayList<Integer> i = new ArrayList<>();
+            i.add(node.data);
+            map.put(dist, i);
+        }
+        else {
+            ArrayList<Integer> i = map.get(dist);
+            i.add(node.data);
+            map.put(dist, i);
+        }
+        getVerticalOrder(node.left, dist - 1, map);
+        getVerticalOrder(node.right, dist + 1, map);
+    }
+
     void print(BinaryTree<Integer> root) {
         if(root == null) {
             return;
@@ -232,5 +315,9 @@ public class BinaryTreeOperations {
         tree.preOrder(root);
         System.out.println("Pre Order Traversal Iterative Approach...");
         tree.preOrderIterative(root);
+        System.out.println("Level Order Traversal...");
+        tree.levelOrder(root);
+        System.out.println("Left View of Tree");
+        tree.leftViewRec(root, 1);
     }
 }
