@@ -293,7 +293,6 @@ public class BinaryTreeOperations {
         getVerticalOrder(node.right, dist + 1, map);
     }
 
-
     void topView(BinaryTree<Integer> root) {
         class QueueObj {
             BinaryTree<Integer> node;
