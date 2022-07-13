@@ -1,8 +1,35 @@
 Binary Tree
 1. Binary Tree Insert
-2. Pre Order
-3. In Order
-4. Post Order
+
+Tree Traversal Classified into 2 categories
+- Breadth First or Level Order - Queue
+    - Traverse the tree level by level
+- Depth First   - Stack
+    - we cover one side and complete it and then move to another
+
+2. Pre Order   - Recursive / Iterative
+3. In Order    - Recursive / Iterative
+4. Post Order  - Recursive / Iterative
 5. Level Order
-6. Left View
-7. Right View
+6. Left View    - Recursive / Iterative
+7. Right View   - Recursive / Iterative = HW
+8. Vertical Order of Tree - Recursive
+9. Vertical Order of Tree - Iterative = HW
+10. Top View of Tree
+11. Height of Tree
+12. Count Nodes in a Tree
+13. Nodes at K Distance
+14. Get Max Element of Tree
+15. Find Width of Tree - HW
+16. Bottom View of Tree
+17. Diagonal View
+18. Boundary Traversal of Tree - HW
+19. Children Sum Property
+20. Construct Sum Tree of a Binary Tree - HW
+21. Check for Balanced Tree
+22. Diameter of Tree - HW
+    - Longest path b/w 2 leaf Nodes
+23. Spiral Order of Tree
+    - Using Queue
+    - Using Stack
+24. Print Ancestors of a Node
