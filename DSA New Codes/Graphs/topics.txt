@@ -1,0 +1,70 @@
+Graph Data Structure
+- Tree data Structure uses a hierarchy of parent and child
+- but when we have random connections to the nodes we cannot use tree
+- for that purpose we have Graph Data Structure
+
+Graph Data Structure that consist of two components:
+- a finite set of vertices also known as nodes.
+- a finite set of ordered pair also known as edge that are in a form(u,v). This pair is ordered because (u,v) is not the same as (v,u) in case of a directed graph(digraph). The pair of the form (u,v) indicates that there is an edge from vertex u to vertex v.
+
+Graph Data Structure is represented by a pair of set G=(V,E)
+- the first pair is set of vertices
+- the another pair is set of edges
+
+Applications / Uses of Graph Data Structure
+- Google Maps
+- Social Networking Connections
+- Recommendation System / Suggestion
+- Database - Neo4J
+
+Directed vs Undirected Graph
+
+Terminologies
+- Degree
+  - in Undirected graph degree of a vertex is number of edges going through it,
+  - in directed graph we have 2 types of degree, in degree and out degree
+    - InDegree is number of edges coming to it and
+    - OutDegree is number of edges coming out of it
+
+Fact about in degree and out degree and number of edges
+- In directed graph if you sum all in degrees you will get number of edges,
+also sum of out degrees is number of edges, 
+
+- Walk / Path : sequences of vertices that we get by following edges of graph
+- Path / Simple Path : Special walk with no repetition of vertices allowed
+- Cyclic : If there exists a walk that begins and end with same vertex, it could be cyclic directed or undirected
+- Acyclic : There exist no cycle
+
+DAG - Directed Acyclic Graph
+
+Weighted and Unweighted Graph
+
+- Best Example is road network
+  - cities are connected with roads and each road has a length
+  - if two cities are far than 2 cities will have edges connected with more weight
+- Another example is computer network with routers
+
+Graph Representations
+- Adjacency Matrix
+- Adjacency List
+
+Adjacency Matrix
+- we create matrix of size vxv for a graph with v vertices
+
+How to handle vertex name with string values?
+Ex : name of cities
+
+Adjacency Matrix stores redundancy information
+
+Adjacency List
+- it saves memory and time by storing data in list
+  - we only store the vertices which are adjacent to a vertex
+
+1. Simple Graph Implementation - Add Edges
+2. BFS on Graph
+    - create a boolean array named as visited[] of size v+1, where V is the no. of vertices in the Graph
+    - create a queue, mark the source vertex visited as visited[s] = true and push it in queue
+    - Until queue is empty repeat the steps below:
+        - pop an element and print
+        - traverse all the vertices adjacent to the vertex popped from queue
+        - if any of the adjacent vertex is not visited, mark it visited and push it into queue
