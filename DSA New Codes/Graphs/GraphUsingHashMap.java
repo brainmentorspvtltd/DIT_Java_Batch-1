@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.Map;
 
 class Vertex {
     HashMap<String, Integer> neighbours = new HashMap<>();
@@ -48,6 +49,11 @@ class GraphOperations {
         }
     }
 
+    void print() {
+        for(Map.Entry<String, Vertex> currentVertex : vertices.entrySet()) {
+            System.out.println(currentVertex.getKey() + " = >" + currentVertex.getValue().neighbours);
+        }
+    }
 }
 
 public class GraphUsingHashMap {
