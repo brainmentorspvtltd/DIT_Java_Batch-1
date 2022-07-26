@@ -1,0 +1,26 @@
+Heap
+- Tree Based Data Structure
+
+Normal Queue - we follow FIFO
+Priority Queue - items are inserted in random order but when we get the values it will give values based on priority
+Heap is also known as Priority Queue
+
+Properties of Heap
+- Heap is a complete binary tree
+  - complete binary tree - where every level, except the last is completely filled and the last level is filled from left to right
+    complete tree is not full binary tree
+    full binary tree - where every node other than leaves has 2 children
+- Heap is either Min Heap or Max Heap
+
+What is Priority in Heap ?
+
+Heapifying
+- insert a new node in heap
+
+Add Value in Heap
+- add from root and then left to right
+
+Delete Value from Heap
+- Heap is priority queue so it will remove element with highest priority
+
+1. Heap CRUD
