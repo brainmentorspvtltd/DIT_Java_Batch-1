@@ -1,0 +1,30 @@
+Bit Manipulation
+- Bitwise Algorithms - used to perform operations at bit level
+The bitwise operations are faster and can improve efficiency of program
+
+Example : Check if a number is odd or even
+We can easily tell this by using Bitwise-AND
+if last bit is 0 then number is even otherwise odd
+
+Bitwise Operators : 6 type of Bitwise Operators
+1. Bitwise AND (&)
+  - output is 1 when both values are 1
+2. Bitwise OR (|)
+  - if any of the input is 1 then result is 1
+3. Bitwise XOR (^)
+  - if inputs are different than 1 and if same than output is 0.
+4. Bitwise NOT (~)
+  - complement the Bits, inverts all bits
+5. Left Shift Operator (<<)
+  - it takes 2 numbers, left shift the bit of first operand and second operand decides number of places to shift
+6. Right Shift Operator (>>)
+  - it takes 2 numbers, right shift the bits of the first operand and second operand decides number of places to shift...
+
+Q1. Check if given number is power of 2
+Q2. Check if kth bit is set
+Q3. Count Set Bits
+    - Brian Kerningam's Algorithm
+Q4. Find odd occurring element
+Q5. Missing Number
+Q6. Two Odd Occuring Elements - HW
+Q7. Power Set using Bitwise (Use Left Shift Operator) - HW
